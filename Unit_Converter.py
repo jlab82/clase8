@@ -6,7 +6,7 @@ while yes:
     km = float(raw_input("Por favor, introduzca número de kilómetros: "))
     milla = km * 0.6214
     print str(km) + " kilómetros corresponden a " + str(milla) + " millas"
-    respuesta = raw_input("¿Quiere realizar otra coversión? si/no: ")
+    respuesta = str.lower(raw_input("¿Quiere realizar otra coversión? si/no: "))
     if respuesta == "no":
         yes = False
     elif respuesta =="si":
